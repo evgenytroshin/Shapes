@@ -11,6 +11,8 @@ public class Main {
         Square sq2 = new Square();
         sq2.a=4;
         Square sq3 = new Square();
+
+        
         sq3.a=5;
         Triangle tr1 = new Triangle();
         tr1.a =5; tr1.b=4; tr1.c=3;

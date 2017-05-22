@@ -4,35 +4,27 @@ package com.company;
  * Created by bliNk on 07.05.2017.
  */
 abstract class Figure {
-    double s,p,h;
-    int a,b,c;
 
-
-
-    String draw() {
-        return ("Рисую фигуру");
+    void draw() {
+        System.out.println ("Рисую фигуру");
     }
 
-    String erase() {
-        return ("Стираю фигуру");
+    void erase() {
+        System.out.println ("Стираю фигуру");
     }
 
-    String move() {
-        return ("Преремещаю фигуру");
+    void move() {
+        System.out.println ("Преремещаю фигуру");
     }
 
-    String setColor() {
-        return ("Задаю цвет фигуры");
+    void setColor() {
+        System.out.println("Изменяю цвет фигуры");
     }
 
-    String getColor() {
-        return ("Возвращаю цвет фигуры");
+    void getColor() {
+        System.out.println ("Возвращаю цвет фигуры");
 
     }
-    double square(){
-        return s;
-    }
 
-
-
+  public abstract double square();
 }

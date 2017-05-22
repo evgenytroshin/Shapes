@@ -5,13 +5,15 @@ package com.company;
  */
 public class Rectangle extends Figure {
     private int a;
-    int b;
-    public int getA(){
-       return a;
+    private int b;
+    public   Rectangle(int a, int b){
+        this.a = a;
+        this.b = b;
     }
-    double square() {
-        s= a*b;
-        return s;
+
+    @Override
+    public double square() {
+        return a*b;
     }
 }
 

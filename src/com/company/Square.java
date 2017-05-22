@@ -4,13 +4,12 @@ package com.company;
  * Created by bliNk on 08.05.2017.
  */
 public class Square extends Figure {
-    int a;
+    private int a;
 
-    double square() {
-        s = a*a;
-        return s;
+    public Square(int a) {
+        this.a = a;
     }
 
-
-
+    @Override
+    public double square() {return a*a;}
 }

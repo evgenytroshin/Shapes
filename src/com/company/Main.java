@@ -10,7 +10,7 @@ public class Main {
         Random rand;
         rand = new Random();
         List<Figure> shapes = new ArrayList<Figure>();
-
+// hello new 
         for(int i=0; i<6; i++) {
             shapes.add(new Square(rand.nextInt(20)));
             shapes.add(new Circle(rand.nextInt(20)));
